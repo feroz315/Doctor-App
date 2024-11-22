@@ -61,26 +61,25 @@ return (
    <DoctorCategoies /> 
   </View>
 
+
 {/* medical body parts  */ }     
 <View style={styles.view_container}>
   <MedicalCategoies />
      </View>
 
+
 {/* Popular Doctor  */ }     
 <View style={styles.view_container}>
    <Text style={styles.Popular_Doctor}>Popular Doctors</Text>
    <PopularCategoies />
-   
-  </View>
+    </View>
 
 
 {/* Feature Doctor  */ }     
 <View style={styles.view_container}>
    <Text style={styles.Popular_Doctor}>Feature Doctors</Text>
     <FeatureCategoies />
-   
-  </View>
-
+    </View>
 
 
 </ScrollView>
